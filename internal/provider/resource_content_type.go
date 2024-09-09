@@ -9,7 +9,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-go/tftypes"
-	"github.com/labd/contentstack-go-sdk/management"
+	"github.com/watchinharrison/contentstack-go-sdk/management"
 )
 
 type resourceContentTypeType struct{}

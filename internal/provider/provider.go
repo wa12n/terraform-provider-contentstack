@@ -7,7 +7,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/diag"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/labd/contentstack-go-sdk/management"
+	"github.com/watchinharrison/contentstack-go-sdk/management"
 )
 
 func New(version string) func() tfsdk.Provider {

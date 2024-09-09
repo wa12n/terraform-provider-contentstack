@@ -2,7 +2,7 @@
 terraform {
   required_providers {
     contentstack = {
-      source = "labd/contentstack"
+      source = "watchinharrison/contentstack"
     }
   }
 }
