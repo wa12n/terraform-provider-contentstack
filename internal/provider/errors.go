@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/hashicorp/terraform-plugin-framework/diag"
-	"github.com/watchinharrison/contentstack-go-sdk/management"
+	"github.com/wa12n/contentstack-go-sdk/management"
 )
 
 func processRemoteError(e error) diag.Diagnostics {

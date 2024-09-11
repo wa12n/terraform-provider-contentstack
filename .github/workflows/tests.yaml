@@ -64,7 +64,7 @@ jobs:
           fetch-depth: 0
 
       - name: Prepare release
-        uses: watchinharrison/changie-release-action@v0.3.2
+        uses: wa12n/changie-release-action@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           release-workflow: 'release.yaml'

@@ -6,7 +6,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
 
-	"github.com/watchinharrison/terraform-provider-contentstack/internal/provider"
+	"github.com/wa12n/terraform-provider-contentstack/internal/provider"
 )
 
 // Run "go generate" to format example terraform files and generate the docs for the registry/website
@@ -35,7 +35,7 @@ func main() {
 	flag.Parse()
 
 	providerserver.Serve(context.Background(), provider.New(version), providerserver.ServeOpts{
-		Address: "registry.terraform.io/watchinharrison/contentstack",
+		Address: "registry.terraform.io/wa12n/contentstack",
 		Debug:   debugMode,
 	})
 }

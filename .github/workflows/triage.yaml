@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: get app token
         id: get-app-token
-        uses: watchinharrison/action-gh-app-token@main
+        uses: wa12n/action-gh-app-token@main
         with:
           app-id: ${{ secrets.RD_APP_ID }}
           private-key: ${{ secrets.RD_APP_PRIVATE_KEY }}
@@ -20,5 +20,5 @@ jobs:
       - name: set to project board
         uses: actions/add-to-project@v0.5.0
         with:
-          project-url: https://github.com/orgs/watchinharrison/projects/3
+          project-url: https://github.com/orgs/wa12n/projects/3
           github-token: ${{ steps.get-app-token.outputs.app-token }}

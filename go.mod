@@ -1,4 +1,4 @@
-module github.com/watchinharrison/terraform-provider-contentstack
+module github.com/wa12n/terraform-provider-contentstack
 
 go 1.18
 
@@ -6,10 +6,10 @@ require (
 	github.com/hashicorp/terraform-plugin-docs v0.9.0
 	github.com/hashicorp/terraform-plugin-framework v0.8.1-0.20220531184835-f0051665855e
 	github.com/hashicorp/terraform-plugin-go v0.9.1
-	github.com/watchinharrison/contentstack-go-sdk v0.0.1
+	github.com/wa12n/contentstack-go-sdk v0.0.4
 )
 
-// replace github.com/watchinharrison/contentstack-go-sdk => ../contentstack-go-sdk
+// replace github.com/wa12n/contentstack-go-sdk => ../contentstack-go-sdk
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
