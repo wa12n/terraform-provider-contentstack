@@ -112,6 +112,7 @@ func (p *provider) GetResources(_ context.Context) (map[string]tfsdk.ResourceTyp
 		"contentstack_global_field": resourceGlobalFieldType{},
 		"contentstack_locale":       resourceLocaleType{},
 		"contentstack_webhook":      resourceWebhookType{},
+		"contentstack_taxonomy": 		 resourceTaxonomyType{},
 	}, nil
 }
 
