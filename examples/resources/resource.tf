@@ -12,10 +12,3 @@ provider "contentstack" {
   api_key          = "<api_key>"
   management_token = "<token>"
 }
-
-
-resource "contentstack_taxonomy" "my_taxonomy" {
-  name                = "taxonomy name"
-  uid                 = "foobar"
-  description         = "someting"
-}
